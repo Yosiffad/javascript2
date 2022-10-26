@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Modifying Elements</title>
+ </head>
+
+ <style>
+ h1 {
+ color: red;
+ }
+ p {
+ font-size: 20px;
+ }
+ </style>
+
+ <body>
+ <h1>
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti assumenda aspernatur suscipit ab illo eveniet quidem quaerat aliquam minus. Neque, debitis impedit architecto libero dolor obcaecati omnis officiis tempora commodi.
+ </h1>
+ <p class="paragraph">I wis h I was bigger</p>
+ <div id="description">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nulla obcaecati voluptatem, laborum facere expedita repudiandae commodi eligendi? Ipsam mollitia commodi ab laudantium libero nesciunt illum impedit atque quisquam rem?
+ </div>
+ </body>
+ <script>
+     
+    
+     document.querySelector('h1').style.color = "blue";
+     
+     document.querySelector('p').style.fontSize = "30px";
+     
+     document.querySelector('#description').style.display="inline-block";
+     
+     document.querySelector('body').style.backgroundColor="green";
+     
+     document.querySelector('title').text='haha';
+
+ </script>
+</html>
